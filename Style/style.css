@@ -1,0 +1,588 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 235, 235);
+}
+
+header{
+    width: 100%;
+    /* height: 138px; */
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+   
+}
+
+.haut{
+    display: flex;
+    justify-content: center;
+   
+}
+.haut a{
+    text-decoration: none;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 7px;
+    color: black;
+    margin-left: 70%;
+   
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-color: 1px solid black;
+    margin-top: -15px;
+    margin-left: 120px;
+   
+}
+
+.liste_items{
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+}
+.liste_items li{
+    list-style: none;
+}
+.liste_items li a{
+    position: relative;
+    left: 185px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+    color: black;
+}
+.liste_items li a:hover{
+    color: orangered;
+    border-bottom: 2px solid green;
+}
+
+main .contenu{
+    background-color: rgb(4, 4, 92);
+    height: 670px;
+    width: 100%;
+}
+.contenu .carte{
+    background: url('../Media/pasteur.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 400px;
+    width: 600px;
+    margin-left: 30%;
+    position: relative;
+    top: 150px;
+    opacity: 0.80;
+    border-radius: 8px;
+   
+}
+.contenu .carte h4{
+   color: white;
+   font-family: sans-serif;
+   font-weight: bold;
+   position: relative;
+   top: 480px;
+   left: 140px;
+   
+}
+.contenu h3{
+   color: white;
+   text-align: center;
+   margin-top: 120px;
+   font-family: sans-serif;  
+}
+.contenu P{
+   color: white;
+   position: relative; 
+   left: 2%;
+   text-align: center;
+}
+
+.cartes{
+    display: flex;
+    justify-content: center;
+   padding: 4%;
+}
+.cartes img{
+    width: 530px;
+    height:300px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cartes .about h1{
+    font-family: sans-serif;
+}
+.cartes .about p{
+    font-family: sans-serif;
+}
+.cartes .about a{
+    text-decoration: none;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.cartes .images img{
+   width: 400px;
+   height: 160px;
+   flex-direction: column;
+   border-radius: 6px;
+   margin-left: 10px;
+}
+.cartes .about .apropos {
+   border:  3px solid white;
+   background-color: white;
+   border-radius: 6px;
+   opacity: 1;
+   width: 400px;
+   height: 160px;   
+}
+.cartes .about .apropos h1  {
+    margin-left:  20px;
+     
+}
+.cartes .about .apropos p {
+    margin-left:  20px;
+     
+}
+.cartes .about .apropos a  {
+    margin-left:  20px;
+     
+}
+
+.chantre img{
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    background: 6px;
+    margin-left:220px;
+    margin-top: -6%;
+    border-radius: 6px;
+}
+
+.pasteur{
+    width: 800px;
+    height: 180px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left:220px;
+    margin-top: 40px;
+    display: flex;
+    font-family: sans-serif;
+
+    
+}
+.pasteur img{
+    position: relative;
+    width: 350px;
+    height: 150px;
+    border-radius: 4px;
+    margin: 10px;
+      
+}
+.pasteur a{
+   text-decoration: none;
+   color: orange;
+      
+}
+.pasteur h1{
+   position: relative;
+   margin-top: 20px;
+   margin-left:  29px;
+      
+}
+.pasteur P{
+   position: relative;
+   text-align: center;
+      
+}
+
+.ange{
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+.cates12{
+    display: flex;
+    justify-content: center;
+}
+.cates12 .carte_contenu{
+    margin-right: 20px;
+}
+.ange h1, .paragaph{
+    text-align: center;
+}
+.ange .carte_contenu{
+    background-color: white;
+    border-radius:10px;
+    height: 410px;
+    width: 450px;
+    margin-top: 40px;
+}
+.ange .carte_contenu img{
+   width: 450px;
+   height: 280px;
+}
+.ange .carte_contenu h2, p, a{
+    margin-left: 20px;  
+}
+.ange .carte_contenu  a{
+    text-decoration: none;
+    color: orange;
+}
+
+.contact{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+
+}
+.contact .contenu_contact{
+   padding: 40px;
+   font-family: sans-serif;
+
+}
+.contact .contenu_contact a{
+   text-decoration: none;
+   background-color: orange;
+   border-radius: 4px;
+   text-transform: uppercase;
+   color: white;
+   padding: 8px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pieds{
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.pieds .titres{
+    margin-right: 50px;
+    
+
+}
+.pieds .titres h3{
+    padding: 15px;
+    font-family: sans-serif;
+}
+.pieds .titres ul li{
+    list-style-type: none;
+    cursor: pointer;
+    padding: 2px;    
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+.copy p {
+    margin-right: 2px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.copy img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: -5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Style de la feuille extension  */
+
+.contenu_extension .carte{
+    background: url('../Media/eglise.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 600px;
+    width: 600px;
+    margin-left: 30%;
+    position: relative;
+    top: 100px;
+    opacity: 0.80;
+    border-radius:50%;
+   
+}
+header{
+    width: 100%;
+    height: 138px;
+    background-color: whitesmoke;
+    margin-bottom: 1px solid white;
+   
+}
+
+.haut{
+    display: flex;
+    justify-content: center;
+   
+}
+.haut a{
+    text-decoration: none;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 7px;
+    color: black;
+    margin-left: 70%;
+   
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-color: 1px solid black;
+    margin-top: -15px;
+    margin-left: 120px;
+   
+}
+
+.liste_items{
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+}
+.liste_items li{
+    list-style: none;
+}
+.liste_items li a{
+    position: relative;
+    left: 185px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+    color: black;
+}
+.liste_items li a:hover{
+    color: orangered;
+    border-bottom: 2px solid green;
+}
+
+main .contenu{
+    background-color: rgb(4, 4, 92);
+    height: 670px;
+    width: 100%;
+}
+/* Feuille de style de l'extension */
+
+.contenu_corps{
+    width: 100%;
+    height: 700px;
+    background: url('../Media/hotel.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contenu_corps{
+   text-align: center;
+   padding-top: 300px;
+}
+.contenu_corps a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.contenu_corps a:hover{
+
+    background-color: orangered;
+    color: black;
+    
+}
+
+/* Style Témognage */
+.contenu_temognages{
+    width: 100%;
+    height: 900px;
+    background: url(../Media/htl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contenu_temognages{
+    text-align: center;
+    padding-top: 400px;
+ }
+
+.contenu_temognages a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.contenu_temognages a:hover{
+
+    background-color: orangered;
+    color: black;
+    
+}
+
+.angeB .carte_contenu{
+    background-color: white;
+    border-radius:10px;
+    height: 410px;
+    width: 450px;
+    margin-top: 40px;
+    text-align: center;
+}
+.angeB .carte_contenu img{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   padding-top: 10px;
+}
+.angeB .carte_contenu h2, p, a{
+    margin-left: 20px;  
+}
+.angeB .carte_contenu  a{
+    text-decoration: none;
+    color: orange;
+}
+
+/* Style connexion */
+.suivre{
+     width: 100%;
+     height: 600px;
+     background: url(../Media/eglise1.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+
+.contenu_Conn{
+    background-color: rgb(4, 4, 92);
+    height: 670px;
+    width: 100%;
+}
+.contenu_Conn .carte{
+    background: url('../Media/chantre.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 400px;
+    width: 800px;
+    margin-left: 20%;
+    position: relative;
+    top: 180px;
+    opacity: 0.80;
+    border-radius: 8px;
+    background-position: center;
+   
+}
+.contenu_Conn .carte h4{
+   color: white;
+   font-family: sans-serif;
+   font-weight: bold;
+   position: relative;
+   /* top: 300px; */
+   left: 160px;
+   font-size: 30px;
+   
+   
+}
+.contenu_Conn h3{
+   color: white;
+   text-align: center;
+   margin-top: 120px;
+   font-family: sans-serif;  
+}
+.contenu_Conn P{
+   color: white;
+   position: relative; 
+   left: 2%;
+   text-align: center;
+}
+
+/* Style Ministères */
+
+.contenu_minister{
+    text-align: center;
+    background: url(../Media/minitre.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+    padding-top: 300px;
+
+ }
+
+ .contenu_minister a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.contenu_minister a:hover{
+
+    background-color: orangered;
+    color: black;
+    
+}
+
+.angeB .carte_contenu{
+    background-color: white;
+    border-radius:10px;
+    height: 410px;
+    width: 450px;
+    margin-top: 40px;
+    text-align: center;
+}
+.Minister .carte_contenu{
+    background-color: white;
+    border-radius:10px;
+    height: 410px;
+    width: 450px;
+    margin-top: 40px;
+    text-align: center;
+}
+.Minister .carte_contenu img{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   padding-top: 10px;
+}
+.Minister .carte_contenu h2, p, a{
+    margin-left: 20px;  
+}
+
+.Minister .carte_contenu  a{
+    text-decoration: none;
+    color: orange;
+}
+
+.localisation{
+    width: 100%;
+    height: 600px;
+    background: url('../Media/localisation.jpg') no-repeat;
+    background-size: cover;
+}
